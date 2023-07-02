@@ -1,0 +1,114 @@
+
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0px;
+    display: flex;
+}
+
+#card{
+    background-color: white;
+    border-radius: 16px;
+    height: 450px;
+    width: 630px;
+    margin: auto;
+    display: flex;
+}
+
+picture{
+    height: auto;
+    width: 50%;
+}
+
+img{
+    border-radius: 16px 0px 0px 16px;
+    height: 100%;
+}
+
+#gabrielle{
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: xx-large;
+    line-height: 30px;
+}
+
+#discount{
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+    font-size: xx-large;
+}
+
+button{
+    font-weight: 700;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 7px;
+    width: 97%;
+    height: 13%;
+    font-size: 14px;
+    margin-top: 8%;
+
+}
+
+button:hover{
+    background-color: hsl(159, 37%, 17%);
+    cursor: pointer;
+}
+
+button > img{
+    height: 14px;
+    width: auto;
+    margin-right: 4px;
+    vertical-align: top;
+}
+
+#price{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+    padding: 0px 0px 0px 15px;
+    vertical-align: super;
+}
+
+#text{
+    padding: 5%;
+
+}
+
+#perfume{
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+#paragraph{
+    line-height: 1.5;
+    margin: 25px 0px 0px 0px;
+}
+
+@media screen and (max-width: 575px) {
+    #card{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 25px 15px;
+    }
+    
+    button{
+        height: 50px;
+    }
+
+    img{
+        border-radius: 16px 16px 0 0;
+        width: 100%;
+    }
+    picture{
+        width: 100%;
+    }
+
+}
